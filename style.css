@@ -71,3 +71,53 @@ img {
 .clear {
   clear: both;
 }
+
+/* Responsive smartphone */
+@media screen and (max-width: 420px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-width: 150px;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  .row {
+    width: 95%;
+    margin-top: 0px;
+  }
+
+  .row h1 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right,
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 12px;
+  }
+
+  #lezioni,
+  #why {
+    background-color: #f2f2cd;
+  }
+
+  .container.grey {
+    background-color: #ffffff;
+  }
+}
+/* End-responsive-smartphone */
