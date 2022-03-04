@@ -121,3 +121,46 @@ img {
   }
 }
 /* End-responsive-smartphone */
+
+/* responsive tablet */
+@media screen and (min-width: 421px) and (max-width: 1024px) {
+  img {
+    height: 100px;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .row h1 {
+    padding-top: 5px;
+  }
+
+  #steps {
+    height: 620px;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central {
+    width: calc(50% - 10px);
+    margin: 0 5px;
+  }
+
+  #steps .row > .right {
+    float: none;
+    width: 50%;
+    margin: 300px auto;
+  }
+
+  .container.grey {
+    background-color: #c8d178;
+  }
+
+  #lezioni,
+  #why {
+    background-color: #cde0f2;
+  }
+}
